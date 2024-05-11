@@ -11,15 +11,15 @@ Preprocessing: The MIDI files are preprocessed to extract musical features such 
 Model Training: An LSTM network is trained on the preprocessed musical data to learn the underlying patterns and structures of Indian classical music. The network is optimized to generate coherent and expressive musical sequences.
 Music Generation: Once trained, the LSTM network can generate new sequences of musical notes, emulating the style and characteristics of Indian classical music. These generated compositions can be further refined and customized to produce unique pieces.
 ## Dependencies
-Python 3.x  
-TensorFlow or PyTorch (for implementing LSTM networks)  
-Music21 library (for MIDI file parsing and music processing)  
-Other necessary libraries (NumPy, Matplotlib, etc.)     
+- Python 3.x  
+- TensorFlow or PyTorch (for implementing LSTM networks)  
+- Music21 library (for MIDI file parsing and music processing)  
+- Other necessary libraries (NumPy, Matplotlib, etc.)     
 ## Usage
-**Data Preparation**: Collect or download a dataset of Indian classical music in MIDI format.      
-**Preprocessing**: Use the provided preprocessing scripts to extract musical features from the MIDI files and prepare the data for training.     
-**Model Training**: Train the LSTM network using the preprocessed data. Tune hyperparameters such as network architecture, learning rate, and batch size for optimal performance.           
-**Music Generation**: Utilize the trained model to generate new Indian classical music compositions. Experiment with different input parameters to explore the diversity of generated music.
+- **Data Preparation**: Collect or download a dataset of Indian classical music in MIDI format.      
+- **Preprocessing**: Use the provided preprocessing scripts to extract musical features from the MIDI files and prepare the data for training.     
+- **Model Training**: Train the LSTM network using the preprocessed data. Tune hyperparameters such as network architecture, learning rate, and batch size for optimal performance.           
+- **Music Generation**: Utilize the trained model to generate new Indian classical music compositions. Experiment with different input parameters to explore the diversity of generated music.
 ## Contribution Guidelines
 Contributions are welcome via pull requests.
 For major changes, please open an issue first to discuss the proposed modifications.
